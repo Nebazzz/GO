@@ -1,0 +1,108 @@
+.section-about-us {
+  margin: 0 auto;
+}
+
+
+.section-about-us__title {
+  margin-bottom: 40px;
+}
+
+.section-about-us__block {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.section-about-us__block:not(:last-child) {
+  margin-right: 80px;
+}
+
+/* .section-about-us__rooms-img {
+
+} */
+
+.section-about-us__block1 {
+  width: 600px;
+  height: 596px;
+}
+
+.section-about-us__block2 {
+  position: relative;
+  width: 490px;
+  height: 596px;
+}
+
+.section-about-us__blockquote__text {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 270px;
+  height: 84px;
+}
+
+.section-about-us__quote {
+  margin-bottom: 59px;
+}
+
+.section-about-us__quote p {
+  margin: 0 0 20px 0;
+}
+
+.section-about-us__quote p:nth-child(2) {
+  margin: 0;
+}
+
+.section-about-us__review {
+  max-width: 469px;
+  height: 191px;
+  color: #FFF;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 50px; /* 113.636% */
+  text-transform: uppercase;
+  margin: 0 0 40px 0;
+  white-space: break-spaces;
+}
+
+.section-about-us__review:before {
+  content: "\201c";
+  color: #6C0287;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 50px; /* 113.636% */
+  text-transform: uppercase;
+  margin-right: 9px;
+}
+
+.section-about-us__review:after {
+  content: "\201d";
+  color: #6C0287;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 50px; /* 113.636% */
+  text-transform: uppercase;
+  margin-left: 9px;
+}
+
+.section-about-us__blockquote {
+  display: inline-block;
+  position: absolute;
+  max-width: 500px;
+  height: 84px;
+  vertical-align: bottom;
+  margin: 0 auto;
+  bottom: 0;
+  
+  /* float: right;
+  clear: both;
+  margin: 0; */
+}
+
+.section-about-us__blockquote__img {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  margin-right: 28px;
+  margin-left: 79px;
+}

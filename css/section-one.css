@@ -1,0 +1,23 @@
+.section-one {
+  height: 1019px;
+}
+
+/* .section-one__title {
+
+} */
+
+.section-one__text {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  margin: 0;
+  padding: 0 0 0 100px;
+}
+
+.section-one__vr-man {
+  position: relative;
+  height: 762px;
+  left: 505px;
+  bottom: 139px;
+}

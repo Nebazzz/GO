@@ -3,7 +3,21 @@
 }
 
 .section-one__title {
+  position: relative;
   z-index: 0;
+}
+
+.section-one__title::after{
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 61px;
+  width: 675px;
+  height: 762px;
+  background-image: url(../image/vr.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
 }
 
 .section-one__block{
@@ -85,13 +99,5 @@
   background: #6C0287;
   width: 374px;
   height: 80px;
-  flex-shrink: 0;
-}
-
-.section-one__block-man{
-  width: 675px;
-  height: 762px;
-  flex-shrink: 0;
-  position: relative;
-  bottom: 160px;
+  margin-bottom: 154px;
 }

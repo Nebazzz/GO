@@ -1,5 +1,5 @@
 .section-one {
-  display: flow-root;
+  height: 898px;
 }
 
 .section-one__title {
@@ -78,7 +78,7 @@
   margin: 0 auto;
 }
 
-.section-one__text {
+.section-one__text{
   font-size: 28px;
   font-style: normal;
   font-weight: 400;
@@ -99,5 +99,16 @@
   background: #6C0287;
   width: 374px;
   height: 80px;
-  margin-bottom: 154px;
+}
+
+.section-one__button{
+  display: flex;
+  align-items: flex-start;
+  gap: 165px;
+  height: 144px;
+}
+
+.button-down{
+  z-index: 1;
+  align-self: flex-end;
 }

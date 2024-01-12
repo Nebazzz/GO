@@ -7,13 +7,14 @@
 }
 
 .options__link {
-
+  height: 228px;
 }
 
 .options__list {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  height: 496px;
 }
 
 .options__title {

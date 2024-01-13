@@ -1,10 +1,10 @@
-/* .options{
+.options{
 
 }
 
 .options__title{
-
-} */
+  
+}
 
 .options__list{
   display: flex;

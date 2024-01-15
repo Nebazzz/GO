@@ -1,0 +1,49 @@
+.reserv__modal{
+  background-color: #440F51;
+  padding: 80px 0 80px;
+}
+
+.reserv__form-title{
+
+}
+
+.reserv__form-rooms-title{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px; /* 116.667% */
+}
+
+.reserv__form-rooms-input{
+  flex-basis: 220px;
+}
+
+.reserv__form{
+  display: flex;
+  justify-content: space-between;
+}
+
+.reserv__form-rooms{
+
+
+}
+
+.reserv__form-rooms-btn{
+  border: 1px solid;
+  padding: 7px 15px 8px;
+  border-radius: 8px;
+  background: #FFF;
+  color: #000;
+  text-align: center;
+  font-family: Arial;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 133.333% */
+  text-transform: uppercase;
+}
+
+.reserv__form-rooms-wrapper{
+  display: flex;
+  gap: 60px;
+}

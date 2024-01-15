@@ -116,7 +116,7 @@
           </div>
         </section>
   
-        <section class="section section-reserv">
+        <!-- <section class="section section-reserv">
           <div class="container">
             <form class="section-reserv__form" id="reserv" 
             action="https://jsonplaceholder.typicode.com/posts" 
@@ -238,6 +238,40 @@
               <input class="section-reserv__form-input" type="checkbox" name="agree3" required>Согласен на обработку данных
             </fieldset>
             </form>
+          </div>
+        </section> -->
+
+        <section class="reserv">
+          <div class="container">
+            <div class="reserv__modal">
+              <h2 class="reserv__form-title" id="reservation">Забронировать зал просто</h2>
+              <form class="reserv__form" id="reserv" 
+              action="https://jsonplaceholder.typicode.com/posts" 
+              method="post">
+              <fieldset class="reserv__form-rooms">
+                <legend class="reserv__form-rooms-title">Выбери зал</legend>
+              <div class="reserv__form-rooms-wrapper">
+                <div class="reserv__form-rooms-btn">
+                  <input class="reserv__form-rooms-input" id="radio-vibes" type="radio" name="hall" value="vibes">
+                  <label for="radio-vibes">80's vibes</label>
+                </div>
+                <div class="reserv__form-rooms-btn">
+                  <input class="reserv__form-rooms-input" id="radio-sw" type="radio" name="hall" value="sw">
+                  <label for="radio-sw">Star Wars</label>
+                </div>
+                <div class="reserv__form-rooms-btn">
+                  <input class="reserv__form-rooms-input" id="radio-west" type="radio" name="hall" value="west">
+                  <label for="radio-west">wild west</label>
+                </div>
+                <div class="reserv__form-rooms-btn">
+                  <input class="reserv__form-rooms-input" id="radio-neon" type="radio" name="hall" value="neon">
+                  <label for="radio-neon">neon style</label>
+                </div>
+              </div>
+              </fieldset>
+  
+            </form>
+            </div>
           </div>
         </section>
   

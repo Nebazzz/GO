@@ -3,10 +3,6 @@
   padding: 80px 0 80px;
 }
 
-.reserv__title{
-
-}
-
 .reserv__form-title{
   text-align: center;
   font-size: 24px;
@@ -18,10 +14,6 @@
 .reserv__form-rooms-input{
   flex-basis: 250px;
   display: none;
-}
-
-.reserv__form{
-
 }
 
 .reserv__form-rooms {
@@ -48,6 +40,10 @@
   display: flex;
   gap: 60px;
   justify-content: space-between;
+}
+
+.reserv__form-entertainment{
+  margin-bottom: 60px;
 }
 
 .reserv__form-entertainment-wrapper {
@@ -107,3 +103,86 @@
   height: 27px;
   margin-right: 12px;
 }
+
+.reserv__form-reg-wrapper{
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.reserv__form-reg-block1{
+  display: flex;
+  gap: 32px;
+  flex-basis: 300px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.reserv__form-reg-block2{
+  display: flex;
+  gap: 32px;
+  flex-basis: 280px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.reserv__form-reg-block3{
+  display: flex;
+  gap: 32px;
+  flex-basis: 280px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.reserv__form-reg-date{
+  /* display: block; */
+  display: flex;
+  width: 134px;
+  height: 52px;
+  padding: 0 27px 0 20px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FFF;
+  color: #211E1E;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+}
+
+.reserv__form-reg-time{
+  /* display: block; */
+  display: flex;
+  width: 134px;
+  height: 52px;
+  padding: 0 27px 0 20px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FFF;
+  color: #211E1E;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+}
+
+.reserv__form-reg-number{
+  /* display: block; */
+  display: flex;
+  width: 300px;
+  height: 52px;
+  padding: 0 27px 0 20px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FFF;
+  color: #211E1E;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+}
+
+.reserv__form-reg-input{
+  display: none;
+}
+

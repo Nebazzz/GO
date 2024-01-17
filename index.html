@@ -244,12 +244,12 @@
         <section class="reserv">
           <div class="container">
             <div class="reserv__modal">
-              <h2 class="reserv__form-title" id="reservation">Забронировать зал просто</h2>
+              <h2 class="reserv__title" id="reservation">Забронировать зал просто</h2>
               <form class="reserv__form" id="reserv" 
               action="https://jsonplaceholder.typicode.com/posts" 
               method="post">
               <fieldset class="reserv__form-rooms">
-                <legend class="reserv__form-rooms-title">Выбери зал</legend>
+                <legend class="reserv__form-title">Выбери зал</legend>
               <div class="reserv__form-rooms-wrapper">
                 <div class="reserv__form-rooms-btn">
                   <input class="reserv__form-rooms-input" id="radio-vibes" type="radio" name="hall" value="vibes">
@@ -269,7 +269,60 @@
                 </div>
               </div>
               </fieldset>
-  
+              <fieldset class="reserv__form-entertainment">
+                <legend class="reserv__form-title">Собери набор развлечений</legend>
+                <div class="reserv__form-entertainment-wrapper">
+                  <div class="reserv__form-entertainment-console">
+                    <p class="reserv__form-entertainment-text">Приставка:</p>
+                    <div class="reserv__form-entertainment-block">
+                      <input type="radio" class="reserv__form-entertainment-radio" id="radio-ps5" name="console" value="playstation">
+                      <label for="radio-ps5" class="reserv__form-entertainment-label">Playstation 5</label>
+                    </div>
+                    <div class="reserv__form-entertainment-block">
+                      <input type="radio" class="reserv__form-entertainment-radio" id="radio-segamd" name="console" value="sega">
+                      <label for="radio-segamd" class="reserv__form-entertainment-label">Sega Mega Drive</label>
+                    </div>
+                    <div class="reserv__form-entertainment-block">
+                      <input type="radio" class="reserv__form-entertainment-radio" id="radio-xbox" name="console" value="xbox">
+                      <label for="radio-xbox" class="reserv__form-entertainment-label">X-box One S</label>
+                    </div>
+                    <div class="reserv__form-entertainment-block">
+                      <input type="radio" class="reserv__form-entertainment-radio" id="radio-dendy" name="console" value="dendy">
+                      <label for="radio-dendy" class="reserv__form-entertainment-label">Playstation 5</label>
+                    </div>
+                  </div>
+                  <div class="reserv__form-entertainment-table">
+                    <p class="reserv__form-entertainment-text">Настольные игры</p>
+                    <div class="reserv__form-entertainment-block">
+                      <input type="checkbox" class="reserv__form-entertainment-checkbox" id="checkbox-jenga" name="table" value="jenga">
+                      <label for="radio-jenga" class="reserv__form-entertainment-label">Jenga</label>
+                    </div>
+                    <div class="reserv__form-entertainment-block">
+                      <input type="checkbox" class="reserv__form-entertainment-checkbox" id="checkbox-monopoly" name="table" value="monopoly">
+                      <label for="radio-monopoly" class="reserv__form-entertainment-label">Monopoly</label>
+                    </div>
+                    <div class="reserv__form-entertainment-block">
+                      <input type="checkbox" class="reserv__form-entertainment-checkbox" id="checkbox-munchkin" name="table" value="munchkin">
+                      <label for="radio-munchkin" class="reserv__form-entertainment-label">Манчкин</label>
+                    </div>
+                    <div class="reserv__form-entertainment-block">
+                      <input type="checkbox" class="reserv__form-entertainment-checkbox" id="checkbox-alias" name="table" value="alias">
+                      <label for="radio-alias" class="reserv__form-entertainment-label">Alias</label>
+                    </div>
+                  </div>
+                  <div class="reserv__form-entertainment-add">
+                    <p class="reserv__form-entertainment-text">Дополнительно</p>
+                    <div class="reserv__form-entertainment-block">
+                      <input type="checkbox" class="reserv__form-entertainment-checkbox" id="checkbox-karaoke" name="add" value="karaoke">
+                      <label for="radio-playstation" class="reserv__form-entertainment-label">Караоке</label>
+                    </div>
+                    <div class="reserv__form-entertainment-block">
+                      <input type="checkbox" class="reserv__form-entertainment-checkbox" id="checkbox-vr" name="add" value="vr">
+                      <label for="radio-playstation" class="reserv__form-entertainment-label">VR</label>
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
             </form>
             </div>
           </div>

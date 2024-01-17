@@ -3,29 +3,30 @@
   padding: 80px 0 80px;
 }
 
-.reserv__form-title{
+.reserv__title{
 
 }
 
-.reserv__form-rooms-title{
+.reserv__form-title{
   text-align: center;
   font-size: 24px;
   font-weight: 700;
   line-height: 28px; /* 116.667% */
+  margin-bottom: 40px;
 }
 
 .reserv__form-rooms-input{
-  flex-basis: 220px;
+  flex-basis: 250px;
+  display: none;
 }
 
 .reserv__form{
-  display: flex;
-  justify-content: space-between;
+
 }
 
-.reserv__form-rooms{
-
-
+.reserv__form-rooms {
+  width: 100%;
+  margin-bottom: 60px;
 }
 
 .reserv__form-rooms-btn{
@@ -43,7 +44,66 @@
   text-transform: uppercase;
 }
 
-.reserv__form-rooms-wrapper{
+.reserv__form-rooms-wrapper {
   display: flex;
   gap: 60px;
+  justify-content: space-between;
+}
+
+.reserv__form-entertainment-wrapper {
+  display: flex;
+  gap: 100px;
+  justify-content: flex-end;
+}
+
+.reserv__form-entertainment-console{
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.reserv__form-entertainment-table{
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.reserv__form-entertainment-add{
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.reserv__form-entertainment-block{
+  display: flex;
+}
+
+.reserv__form-entertainment-text{
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 116.667% */
+}
+
+.reserv__form-entertainment-radio{
+  width: 27px;
+  height: 27px;
+  margin-right: 12px;
+}
+
+.reserv__form-entertainment-label{
+  font-family: Arial;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.reserv__form-entertainment-checkbox{
+  width: 27px;
+  height: 27px;
+  margin-right: 12px;
 }

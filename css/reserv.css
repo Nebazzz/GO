@@ -186,3 +186,16 @@
   display: none;
 }
 
+.reserv__form-reg-block-name{
+  position: relative;
+  width: 100%;
+}
+
+.reserv__form-reg-input-name{
+  height: 52px;
+}
+
+.reserv__form-reg-name{
+  position: absolute;
+  bottom: 50px;
+}

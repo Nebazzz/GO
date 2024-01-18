@@ -1,6 +1,12 @@
+.reserv__container{
+  max-width: 1500px;
+  padding: 0 30px;
+  margin: 0 auto;}
+
+
 .reserv__modal{
   background-color: #440F51;
-  padding: 80px 0 80px;
+  padding: 80px 130px 80px;
 }
 
 .reserv__form-title{
@@ -49,7 +55,8 @@
 .reserv__form-entertainment-wrapper {
   display: flex;
   gap: 100px;
-  justify-content: flex-end;
+  justify-content: flex-start;
+  padding-left: 100px;
 }
 
 .reserv__form-entertainment-console{
@@ -107,7 +114,8 @@
 .reserv__form-reg-wrapper{
   display: flex;
   gap: 50px;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-left: 100px;
 }
 
 .reserv__form-reg-block1{
@@ -120,7 +128,7 @@
 
 .reserv__form-reg-block2{
   display: flex;
-  gap: 32px;
+  gap: 36px;
   flex-basis: 280px;
   justify-content: center;
   flex-wrap: wrap;
@@ -128,8 +136,8 @@
 
 .reserv__form-reg-block3{
   display: flex;
-  gap: 32px;
-  flex-basis: 280px;
+  gap: 36px;
+  flex-basis: 300px;
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -193,9 +201,75 @@
 
 .reserv__form-reg-input-name{
   height: 52px;
+  width: 100%;
 }
 
 .reserv__form-reg-name{
   position: absolute;
-  bottom: 50px;
+  bottom: 54px;
+  color: #FFF;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 114.286% */
+}
+
+.reserv__form-reg-block-surname{
+  position: relative;
+  width: 100%;
+}
+
+.reserv__form-reg-input-surname{
+  height: 52px;
+  width: 100%;
+}
+
+.reserv__form-reg-surname{
+  position: absolute;
+  bottom: 54px;
+  color: #FFF;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 114.286% */
+}
+
+.reserv__form-reg-block-phone{
+  position: relative;
+  width: 100%;
+}
+
+.reserv__form-reg-input-phone{
+  height: 52px;
+  width: 100%;
+}
+
+.reserv__form-reg-phone{
+  position: absolute;
+  bottom: 54px;
+  color: #FFF;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 114.286% */
+}
+
+.reserv__form-reg-block-email{
+  position: relative;
+  width: 100%;
+}
+
+.reserv__form-reg-input-email{
+  height: 52px;
+  width: 100%;
+}
+
+.reserv__form-reg-email{
+  position: absolute;
+  bottom: 54px;
+  color: #FFF;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 114.286% */
 }

@@ -1,60 +1,66 @@
+.footer-style{
+  background: linear-gradient(180deg, #1B1A1B 0%, #370A37 100%);
+}
+
 .contacts-title {
   margin-bottom: 40px;
 }
 
-
 .address {
   margin-bottom: 39px;
+  width: 440px;
 }
 
-.address__item {
-  width: 380px;
-  font-style: normal;
-  font-weight: 700;
-  padding-left: 65px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: left;
-  margin-bottom: 10px;
-  padding: 0;
+.address__list{
+  display: flex;
+  flex-direction: column;
+}
+
+.address__text{
+  white-space: pre-line;
 }
 
 .address__item:first-child {
-  margin-bottom: 38px;
+  display: flex;
+  gap: 28px;
+  height: 61px;
+  font-style: normal;
+  font-weight: 700;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  align-items: center;
 }
 
-.address__item:last-child {
-  margin-bottom: 0;
+.address__item {
+  display: flex;
+  gap: 28px;
+  height: 32px;
+  font-style: normal;
+  font-weight: 700;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
 }
 
 .address__img {
-  float: left;
-  width: 35px;
+  width: 32px;
   height: 32px;
-  margin-right: 30px;
 }
 
 .address__link {
   color: #fff;
 }
 
-.social {
-  padding-bottom: 50px;
-}
-
 .social__list {
-display: inline-block; 
+display: flex;
+gap: 26px;
+margin-bottom: 10px;
 }
 
 .social__item {
-  display: inline-block;
   width: 50px;
   height: 50px;
-  margin-right: 26px;
-}
-
-.social__item:last-child {
-  margin-right: 0;
 }
 
 .social__link {
@@ -72,4 +78,26 @@ display: inline-block;
 
 .social__link:active {
   color: #840AA3;
+}
+
+.contacts-wrapper{
+  display: flex;
+  gap: 60px;
+  padding-bottom: 204px;
+}
+
+.contacts__block-left{
+  width: 440px;
+}
+
+.contacts__block-right{
+  width: 680px;
+}
+
+.address__item-moscow{
+  margin-bottom: 39px;
+}
+
+.address__item-tel{
+  margin-bottom: 14px;
 }

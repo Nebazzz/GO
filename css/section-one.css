@@ -37,25 +37,25 @@
   height: 209px;
 }
 
-.block-text__list-room{
+.section-one__block-text-list-room{
   align-self: flex-start;
   height: 141px;
   width: 193px;
 }
 
-.block-text__list-new{
+.section-one__block-text-list-new{
   align-self: flex-end;
   height: 174px;
   width: 161px;
 }
 
-.block-text__item{
+.section-one__block-text-item{
   color: #FFF;
   font-size: 30px;
   height: 68px;
 }
 
-.block-text__item-4{
+.section-one__block-text-item-4{
   display: flex;
   align-items: center;
   color: #CD06FF;
@@ -66,7 +66,7 @@
   margin: 0 auto;
 }
 
-.block-text__item-new{
+.section-one__block-text-item-new{
   display: flex;
   align-items: center;
   color: #CD06FF;
@@ -87,7 +87,7 @@
   padding: 0 0 0 100px;
 }
 
-.block-text__button{
+.section-one__button-reserv{
   color: #FFF;
   font-family: Arial;
   font-size: 26px;

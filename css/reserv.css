@@ -1,3 +1,7 @@
+.reserv{
+  padding-top: 50px;
+}
+
 .reserv__container{
   max-width: 1500px;
   padding: 0 30px;
@@ -118,28 +122,30 @@
   padding-left: 100px;
 }
 
-.reserv__form-reg-block1{
+.reserv__form-reg-block1 {
   display: flex;
   gap: 32px;
   flex-basis: 300px;
   justify-content: center;
   flex-wrap: wrap;
+  align-content: flex-start;
 }
 
-.reserv__form-reg-block2{
+.reserv__form-reg-block2 {
   display: flex;
   gap: 36px;
   flex-basis: 280px;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
+  flex-direction: column;
 }
 
-.reserv__form-reg-block3{
+.reserv__form-reg-block3 {
   display: flex;
   gap: 36px;
   flex-basis: 300px;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .reserv__form-reg-date{
@@ -257,6 +263,7 @@
 .reserv__form-reg-block-email{
   position: relative;
   width: 100%;
+  margin-bottom: 4px;
 }
 
 .reserv__form-reg-input-email{
@@ -272,4 +279,22 @@
   font-style: normal;
   font-weight: 700;
   line-height: 16px; /* 114.286% */
+}
+
+.reserv__form-reg-block-button{
+  width: 100%;
+
+}
+
+.reserv__form-reg-button{
+  width: 300px;
+  height: 60px;
+  border-radius: 10px;
+  background: #FFF;
+  color: #6C0287;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 127.273% */
+  text-transform: uppercase;
 }

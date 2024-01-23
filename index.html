@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="index.css">
   </head>
     <body class="page">
+      <script>
+        document.addEventListener('click', event => {    if (event.target.matches('button')) {
+          event.target.focus()    }})
+      </script>
       <header class="header">
         <div class="container">
           <div class="nav-block">
@@ -232,7 +236,7 @@
                   <div class="reserv__form-reg-block-user">
                     <div class="reserv__form-reg-block-name">
                       <label for="reg-name" class="reserv__form-reg-name">Имя</label>
-                      <input type="text" class="reserv__form-reg-input-name" id="reg-name" required>
+                      <input type="text" class="reserv__form-reg-input-name reserv__form-reg-style" id="reg-name" required>
                     </div>
                     <div class="reserv__form-reg-block-surname">
                       <label for="reg-surname" class="reserv__form-reg-surname">Фамилия</label>
@@ -242,11 +246,11 @@
                   <div class="reserv__form-reg-block-feedback">
                     <div class="reserv__form-reg-block-phone">
                       <label for="reg-phone" class="reserv__form-reg-phone">Телефон</label>
-                      <input type="tel" class="reserv__form-reg-input-phone" id="reg-phone" required>
+                      <input type="tel" class="reserv__form-reg-input-phone reserv__form-reg-style" id="reg-phone" required>
                     </div>
                     <div class="reserv__form-reg-block-email">
                       <label for="reg-email" class="reserv__form-reg-email">E-mail</label>
-                      <input type="email" class="reserv__form-reg-input-email" id="reg-email" required>
+                      <input type="email" class="reserv__form-reg-input-email reserv__form-reg-style" id="reg-email" required>
                     </div>
                     <div class="reserv__form-reg-block-button">
                       <button type="submit" class="reserv__form-reg-button">Забронировать</button>

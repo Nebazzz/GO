@@ -1,4 +1,4 @@
-.footer-style{
+.footer-style {
   background: linear-gradient(180deg, #1B1A1B 0%, #370A37 100%);
 }
 
@@ -11,12 +11,12 @@
   width: 440px;
 }
 
-.address__list{
+.address__list {
   display: flex;
   flex-direction: column;
 }
 
-.address__text{
+.address__text {
   white-space: pre-line;
 }
 
@@ -63,7 +63,7 @@ margin-bottom: 10px;
   height: 50px;
 }
 
-.social__link {
+.social__link  {
   color: #fff;
   font-size: 0;
 }
@@ -80,24 +80,24 @@ margin-bottom: 10px;
   color: #840AA3;
 }
 
-.contacts-wrapper{
+.contacts-wrapper {
   display: flex;
   gap: 60px;
   padding-bottom: 204px;
 }
 
-.contacts__block-left{
+.contacts__block-left {
   width: 440px;
 }
 
-.contacts-block-right{
+.contacts-block-right {
   width: 680px;
 }
 
-.address__item-moscow{
+.address__item-moscow {
   margin-bottom: 39px;
 }
 
-.address__item-tel{
+.address__item-tel {
   margin-bottom: 14px;
 }

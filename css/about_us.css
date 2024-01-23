@@ -2,20 +2,12 @@
   margin-bottom: 40px;
 }
 
-.about-us {
-  
-}
-
-.about-us__rooms-img {
-
-}
-
-.about-us__block1 {
+.about-us__block-images {
   width: 600px;
   height: 596px;
 }
 
-.about-us__block2 {
+.about-us__block-review {
   display: flex;
   width: 500px;
   height: 596px;
@@ -52,10 +44,6 @@
   white-space: break-spaces;
 }
 
-.about-us__blockquote {
-
-}
-
 .about-us__blockquote-img {
   width: 80px;
   height: 80px;
@@ -64,12 +52,12 @@
   object-position: top;
 }
 
-.about-us__wrapper{
+.about-us__wrapper {
   display: flex;
   gap: 80px;
 }
 
-.about-us__block3{
+.about-us__block3 {
   display: flex;
   max-width: 500px;
   height: 84px;

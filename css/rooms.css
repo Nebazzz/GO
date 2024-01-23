@@ -1,7 +1,3 @@
-/* .rooms {
-
-} */
-
 .rooms__list {
   display: flex;
   justify-content: space-between;
@@ -33,22 +29,22 @@
   text-transform: uppercase;
 }
 
-.rooms__item_vibe {
+.rooms__item-vibe {
   text-align: center;
   background-image: url("../image/vibe.jpg");
 }
 
-.rooms__item_star {
+.rooms__item-star {
   text-align: center;
   background-image: url("../image/starwars.jpg");
 }
 
-.rooms__item_west {
+.rooms__item-west {
   text-align: center;
   background-image: url("../image/wildwest.jpg");
 }
 
-.rooms__item_neon {
+.rooms__item-neon {
   text-align: center;
   background-image: url("../image/neon.jpg");
 }

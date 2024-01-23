@@ -1,10 +1,16 @@
-.review__wrapper{
+.review-container {
+  max-width: 1040px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.review__wrapper {
   display: flex;
   flex-direction: column;
   gap: 50px;
 }
 
-.review__name{
+.review__name {
   display: flex;
   flex-direction: row-reverse;
   align-items: flex-start;
@@ -12,22 +18,22 @@
   gap: 20px;
 }
 
-.review__img{
-  height: 280px;
+.review__img {
+  max-height: 280px;
 }
 
-.review__text{
+.review__text {
   width: 680px;
   height: 88px;
   padding-top: 52px;
 }
 
-.review__figure{
+.review__figure {
   display: flex;
   flex-direction: column;
   gap: 11px;
 }
 
-.review__figure-caption{
+.review__figure-caption {
   align-self: center;
 }

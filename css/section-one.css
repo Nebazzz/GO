@@ -150,19 +150,31 @@
 .button-down {
   z-index: 1;
   align-self: flex-end;
+  background-image: url("../icons/down.svg");
+  width: 97px;
+  height: 97px;
 }
 
-/* .button-down:hover {
+.button-down:hover {
   z-index: 1;
   align-self: flex-end;
+  background-image: url("../icons/down-hover.svg");
+  width: 97px;
+  height: 97px;
 }
 
 .button-down:active {
   z-index: 1;
   align-self: flex-end;
+  background-image: url("../icons/down-active.svg");
+  width: 97px;
+  height: 97px;
 }
 
 .button-down:focus {
   z-index: 1;
   align-self: flex-end;
-} */
+  background-image: url("../icons/down-focus.svg");
+  width: 99px;
+  height: 99px;
+}

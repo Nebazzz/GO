@@ -149,6 +149,14 @@
   margin-right: 12px;
 }
 
+.reserv__form-entertainment-radio:focus {
+  width: 27px;
+  height: 27px;
+  margin-right: 12px;
+  outline-color: #CD06FF;
+  outline-width: 1px;
+}
+
 .reserv__form-entertainment-label {
   font-family: Arial;
   font-size: 22px;
@@ -161,6 +169,14 @@
   width: 27px;
   height: 27px;
   margin-right: 12px;
+}
+
+.reserv__form-entertainment-checkbox:focus {
+  width: 27px;
+  height: 27px;
+  margin-right: 12px;
+  outline-color: #CD06FF;
+  outline-width: 1px;
 }
 
 .reserv__form-reg-wrapper {
@@ -255,6 +271,14 @@
   width: 100%;
 }
 
+
+.reserv__form-reg-input-email:focus,
+.reserv__form-reg-input-phone:focus,
+.reserv__form-reg-input-surname:focus,
+.reserv__form-reg-input-name:focus {
+  border: 2px solid #CD06FF;
+}
+
 .reserv__form-reg-name {
   position: absolute;
   bottom: 54px;
@@ -324,18 +348,6 @@
   font-style: normal;
   font-weight: 700;
   line-height: 16px; /* 114.286% */
-}
-
-.reserv__form-reg-style {
-  height: 52px;
-  width: 100%;
-  border: 2px solid #fff;
-}
-
-.reserv__form-reg-style:focus {
-  height: 52px;
-  width: 100%;
-  border: 2px solid #CD06FF;
 }
 
 .reserv__form-reg-block-button {

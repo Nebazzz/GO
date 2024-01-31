@@ -153,8 +153,7 @@
   width: 27px;
   height: 27px;
   margin-right: 12px;
-  outline-color: #CD06FF;
-  outline-width: 1px;
+  outline: 1px solid #CD06FF;
 }
 
 .reserv__form-entertainment-label {
@@ -175,8 +174,7 @@
   width: 27px;
   height: 27px;
   margin-right: 12px;
-  outline-color: #CD06FF;
-  outline-width: 1px;
+  outline: 1px solid #CD06FF;
 }
 
 .reserv__form-reg-wrapper {
@@ -266,17 +264,13 @@
   width: 100%;
 }
 
-.reserv__form-reg-input-name {
+.reserv__form-reg-input-data {
   height: 52px;
   width: 100%;
 }
 
-
-.reserv__form-reg-input-email:focus,
-.reserv__form-reg-input-phone:focus,
-.reserv__form-reg-input-surname:focus,
-.reserv__form-reg-input-name:focus {
-  border: 2px solid #CD06FF;
+.reserv__form-reg-input-data:focus {
+  outline: solid #CD06FF;
 }
 
 .reserv__form-reg-name {
@@ -291,11 +285,6 @@
 
 .reserv__form-reg-block-surname {
   position: relative;
-  width: 100%;
-}
-
-.reserv__form-reg-input-surname {
-  height: 52px;
   width: 100%;
 }
 
@@ -314,11 +303,6 @@
   width: 100%;
 }
 
-.reserv__form-reg-input-phone {
-  height: 52px;
-  width: 100%;
-}
-
 .reserv__form-reg-phone {
   position: absolute;
   bottom: 54px;
@@ -333,11 +317,6 @@
   position: relative;
   width: 100%;
   margin-bottom: 4px;
-}
-
-.reserv__form-reg-input-email {
-  height: 52px;
-  width: 100%;
 }
 
 .reserv__form-reg-email {

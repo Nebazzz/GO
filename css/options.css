@@ -14,6 +14,11 @@
   background-repeat: no-repeat;
   background-position: 0 25%;
   background-size: cover;
+  transition: 0.8s;
+}
+
+.options__item:hover {
+  transform: scale(1.1);
 }
 
 .options__item-vr {

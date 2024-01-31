@@ -20,6 +20,7 @@
 .faq__item-btn {
   width: 46px;
   height: 46px;
+  transition: 0.6s;
 }
 
 .faq__item-btn:nth-child(odd) {

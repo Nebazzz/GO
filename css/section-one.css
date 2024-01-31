@@ -99,6 +99,7 @@
   background-color: #6C0287;
   width: 374px;
   height: 80px;
+  transition: 0.4s;
 }
 
 .section-one__button-reserv:hover {
@@ -153,6 +154,7 @@
   background-image: url("../icons/down.svg");
   width: 97px;
   height: 97px;
+  transition: 0.4s;
 }
 
 .button-down:hover {

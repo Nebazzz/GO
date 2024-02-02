@@ -21,8 +21,7 @@
 }
 
 .options {
-  --cart-horizon: 3;
   --gap: 20px;
-  --cart-vertical: 2;
   --gap-vertial: 40px;
+  --cart-height: 228px;
 }

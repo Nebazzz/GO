@@ -1,7 +1,7 @@
 .options__list {
   display: flex;
   justify-content: space-between;
-  height: calc(100% / var(--cart-vertical) - ((var(--gap-vertial) + 70px) * (var(--cart-vertical) - 1)) / var(--cart-vertical));
+  height: calc(var(--cart-height) * 2 + var(--gap-vertial) + 70px);
   gap: var(--gap);
 }
 

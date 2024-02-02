@@ -1,0 +1,28 @@
+.header {
+  --main-color: #CD06FF;
+}
+
+.footer-style {
+  --main-color: #CD06FF;
+}
+
+.reserv {
+  --main-color: #440F51;
+  --border-color: #CD06FF;
+  --effect-color: #6C0287;
+}
+
+.faq {
+  --main-color: #440F51;
+}
+
+.section-one {
+  --main-color: #CD06FF;
+}
+
+.options {
+  --cart-horizon: 3;
+  --gap: 20px;
+  --cart-vertical: 2;
+  --gap-vertial: 40px;
+}

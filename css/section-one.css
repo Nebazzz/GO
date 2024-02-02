@@ -58,7 +58,7 @@
 .section-one__block-text-item-four {
   display: flex;
   align-items: center;
-  color: #CD06FF;
+  color: var(--main-color);
   font-size: 100px;
   font-weight: 900;
   height: 141px;
@@ -69,7 +69,7 @@
 .section-one__block-text-item-new {
   display: flex;
   align-items: center;
-  color: #CD06FF;
+  color: var(--main-color);
   font-size: 75px;
   font-weight: 900;
   font-variant: all-small-caps;

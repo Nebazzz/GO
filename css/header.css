@@ -25,7 +25,7 @@
   text-transform: uppercase;
   line-height: 30px;
   border-radius: 10px;
-  border: 3px solid #CD06FF;
+  border: 3px solid var(--main-color);
   transition: 0.4s;
 }
 
@@ -38,7 +38,7 @@
   text-transform: uppercase;
   line-height: 30px;
   border-radius: 10px;
-  border: 3px solid #CD06FF;
+  border: 3px solid var(--main-color);
   background-color: #6C0287;
 }
 

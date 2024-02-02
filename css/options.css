@@ -1,13 +1,11 @@
 .options__list {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
-  flex-wrap: wrap;
+  height: calc(100% / var(--cart-vertical) - ((var(--gap-vertial) + 70px) * (var(--cart-vertical) - 1)) / var(--cart-vertical));
+  gap: var(--gap);
 }
 
 .options__item {
-  flex-basis: 380px;
-  display: block;
   width: 100%;
   height: 228px;
   padding-top: 166px;
@@ -49,4 +47,29 @@
   font-weight: 700;
   width: 300px;
   margin-left: 40px;
+}
+
+.options__item-start {
+  display: flex;
+  align-self: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-vertial);
+}
+
+.options__item-end {
+  display: flex;
+  align-self: flex-end;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-vertial);
+  justify-content: center;
+}
+
+.options__item-start {
+  display: flex;
+  align-self: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-vertial);
 }

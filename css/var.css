@@ -1,8 +1,4 @@
-.header {
-  --main-color: #CD06FF;
-}
-
-.footer-style {
+:root {
   --main-color: #CD06FF;
 }
 
@@ -14,10 +10,6 @@
 
 .faq {
   --main-color: #440F51;
-}
-
-.section-one {
-  --main-color: #CD06FF;
 }
 
 .options {

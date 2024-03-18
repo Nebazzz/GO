@@ -66,3 +66,17 @@
   border-radius: 10px;
   background: #6C0287;
 }
+
+/* 80 vibes */
+
+.header__back {
+  display: block;
+  font-weight: 700;
+  text-transform: none;
+}
+
+.header__back:before {
+  content: url("../icons/arrow-back.svg");
+  width: 30px;
+  margin-right: 10px;
+}

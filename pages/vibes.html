@@ -1,11 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="icon" type="image/svg+xml" href="../image/favicon.svg">
+  <link rel="icon" type="image/x-icon" href="../image/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="../image/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../image/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../image/favicon-16x16.png">
+  <link rel="stylesheet" href="../index.css">
+  <title>80’s vibes</title>
 </head>
 <body>
-  <h1>80's vibes</h1>
+  <script>
+    document.addEventListener('click', event => {    if (event.target.matches('button')) {
+      event.target.focus()    }})
+  </script>
+  <header class="header">
+    <div class="container">
+      <div class="nav-block">
+        <img class="header__logo" src="../image/logo.svg" alt="логотип с надписью GO">
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a class="navigation__link" href="#rooms">Залы</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#Us">О нас</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#reservation">Бронь</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#review">Отзывы</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#contacts">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="header__button" type="button">Заказать звонок</button>
+      </div>
+      <a href="../index.html" class="header__back">Вернуться назад</a>
+    </div>
+  </header>
 </body>
 </html>

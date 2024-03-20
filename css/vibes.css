@@ -53,7 +53,7 @@
 }
 
 .other {
-  padding: 50px 0 50px;
+  padding: 50px 0 100px;
 }
 
 .other__preview {
@@ -63,6 +63,21 @@
 
 .preview-other__link {
   display: block;
+  position: relative;
+}
+
+.preview-other__link-style {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-weight: 700;
+  width: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 120%;
 }
 
 .other__preview-img {

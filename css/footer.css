@@ -1,5 +1,6 @@
 .footer-style {
   background: linear-gradient(180deg, #1B1A1B 0%, #370A37 100%);
+  padding-bottom: 21px;
 }
 
 .contacts-title {
@@ -84,7 +85,7 @@ margin-bottom: 10px;
 .contacts-wrapper {
   display: flex;
   gap: 60px;
-  padding-bottom: 204px;
+  margin-bottom: 145px;
 }
 
 .contacts__block-left {
@@ -101,4 +102,23 @@ margin-bottom: 10px;
 
 .address__item-tel {
   margin-bottom: 14px;
+}
+
+.footer__author {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 6px;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.footer__design {
+  justify-self: end;
+}
+
+.footer__email {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  justify-self: end;
 }

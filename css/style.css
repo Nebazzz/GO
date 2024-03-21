@@ -102,8 +102,8 @@ fieldset {
 }
 
 .container {
-  max-width: 1240px;
-  padding: 0 30px;
+  max-width: 1440px;
+  padding: 0 130px;
   margin: 0 auto;
 }
 
@@ -122,4 +122,12 @@ fieldset {
 
 .section:last-child {
   padding: 50px 0 100px 0;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 1024px;
+    padding: 0 60px;
+    margin: 0 auto;
+  }
 }

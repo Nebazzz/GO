@@ -178,6 +178,11 @@ margin-bottom: 10px;
     line-height: 18px;
   }
 
+  .address__img {
+    width: 26px;
+    height: 26px;
+  }
+
   .contacts-block-right {
     width: 100%;
     height: 194px;

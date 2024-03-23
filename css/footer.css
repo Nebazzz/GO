@@ -166,3 +166,49 @@ margin-bottom: 10px;
     height: 100%;
   }
 }
+
+@media (max-width: 480px) {
+  .contacts-wrapper {
+    gap: 35px;
+    margin-bottom: 63px;
+  }
+
+  .address__list {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .contacts-block-right {
+    width: 100%;
+    height: 194px;
+  }
+
+  .contacts-block-right-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .address {
+    margin-bottom: 10px;
+  }
+
+  .address__item {
+    height: 18px;
+  }
+
+  .address__item:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  .footer__author {
+    display: flex;
+    font-size: 12px;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+  .footer__copyright {
+    margin-bottom: 14px;
+  }
+}

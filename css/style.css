@@ -131,3 +131,19 @@ fieldset {
     margin: 0 auto;
   }
 }
+
+@media (max-width: 900px) {
+  .container {
+    max-width: 768px;
+    padding: 0 40px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    max-width: 320px;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+}

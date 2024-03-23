@@ -11,6 +11,10 @@
   align-items: center;
 }
 
+.header__burger {
+  display: none;
+}
+
 .navigation__list {
   display: flex;
   gap: 40px;
@@ -70,16 +74,23 @@
 /* 80 vibes */
 
 .header__back {
-  display: block;
+  display: inline-block;
   font-weight: 700;
   text-transform: none;
   font-size: 22px;
+  line-height: 28px;
+  vertical-align: middle;
 }
 
 .header__back:before {
-  content: url("../icons/arrow-back.svg");
+  display: inline-block;
+  content: "";
+  background: url("../icons/arrow-back.svg") no-repeat center;
+  background-size: contain;
   width: 30px;
+  height: 28px;
   margin-right: 10px;
+  vertical-align: middle;
 }
 
 @media (max-width: 1200px) {
@@ -127,5 +138,58 @@
     height: 45px;
     line-height: 24px;
     border-radius: 8px;
+  }
+}
+
+
+@media (max-width: 900px) {
+  .header__burger {
+    display: block;
+    position: relative;
+    width: 54px;
+    height: 29px;
+  }
+
+  .header__burger::before,
+  .header__burger::after {
+    content: "";
+    position: absolute;
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    left: 0;
+    background-color: #6C0287;
+  }
+
+  .header__burger::before {
+    top: 0;
+  }
+
+  .header__burger::after {
+    width: 31px;
+    bottom: 0;
+  }
+
+  .header__burger span {
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    left: 0;
+    top: 12px;
+    background-color: #6C0287;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .header__burger-link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  .header__back {
+    font-size: 16px;
   }
 }

@@ -122,3 +122,47 @@ margin-bottom: 10px;
   grid-row: 2 / 3;
   justify-self: end;
 }
+
+@media (max-width: 900px) {
+  .contacts-wrapper {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 75px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contacts-block-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+  .address__item:first-child {
+    gap: 10px;
+  }
+
+  .address__item {
+    gap: 10px;
+  }
+
+  .address__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+  .address__text {
+    text-align: center;
+  }
+
+  .contacts-block-right {
+    width: 100%;
+    height: 337px;
+  }
+
+  .contacts-block-right-img {
+    width: 100%;
+    height: 100%;
+  }
+}

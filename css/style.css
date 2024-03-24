@@ -117,7 +117,7 @@ fieldset {
 }
 
 .section:first-child {
-  padding: 25px 0 50px 0;
+  padding: 50px 0 50px 0;
 }
 
 .section:last-child {
@@ -130,6 +130,18 @@ fieldset {
     padding: 0 60px;
     margin: 0 auto;
   }
+
+  .section {
+    padding: 35px 0 35px 0;
+  }
+
+  .section:first-child {
+    padding: 30px 0 35px 0;
+  }
+  
+  .section:last-child {
+    padding: 35px 0 60px 0;
+  }
 }
 
 @media (max-width: 900px) {
@@ -138,6 +150,14 @@ fieldset {
     padding: 0 40px;
     margin: 0 auto;
   }
+
+  .section {
+    padding: 50px 0 50px 0;
+  }
+
+  .section:last-child {
+    padding: 50px 0 100px 0;
+  }
 }
 
 @media (max-width: 480px) {
@@ -145,5 +165,13 @@ fieldset {
     max-width: 320px;
     padding: 0 20px;
     margin: 0 auto;
+  }
+
+  .section {
+    padding: 50px 0 50px 0;
+  }
+
+  .section:last-child {
+    padding: 50px 0 100px 0;
   }
 }

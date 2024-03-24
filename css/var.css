@@ -17,3 +17,27 @@
   --gap-vertial: 40px;
   --cart-height: 228px;
 }
+
+@media (max-width: 1200px) {
+  .options {
+    --gap: 22px;
+    --gap-vertial: 30px;
+    --cart-height: 172px;
+  }
+}
+
+@media (max-width: 900px) {
+  .options {
+    --gap: 20px;
+    --gap-vertial: 20px;
+    --cart-height: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .options {
+    --gap: 10px;
+    --gap-vertial: 10px;
+    --cart-height: 168px;
+  }
+}

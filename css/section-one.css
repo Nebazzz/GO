@@ -1,6 +1,6 @@
-.section-one {
+/* .section-one {
   height: 898px;
-}
+} */
 
 .section-one__title {
   position: relative;
@@ -144,7 +144,7 @@
   display: flex;
   align-items: flex-start;
   gap: 165px;
-  height: 144px;
+  height: 234px;
 }
 
 .button-down {
@@ -153,6 +153,7 @@
   background-image: url("../icons/down.svg");
   width: 97px;
   height: 97px;
+  align-self: center;
   transition: 0.4s;
 }
 
